@@ -65,7 +65,9 @@ cell에 있는 별표 버튼을 index에 맞게 각각 눌리게 구현해야 �
 
 ### 해결
 
-`Delegate 패턴 사용`
+`Delegate 패턴 사용` 
+<br>
+<br>
 cell 내부에서 `CellActionDelegate` 를 만들어준 후,
 PhotoListVC에서 채택하여 `starButtonTapped` 메서드의 파라미터로`PhotoListCollectionViewCell`을 적용 -> collectionView.indexPath(for: cell)로 눌려지는 Index 파악
 
